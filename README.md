@@ -27,5 +27,5 @@
 ## 📦 Installation & Setup 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/PrepWell.git
+git clone https://github.com/LikhithDathi/PrepWell.git
 cd PrepWell
