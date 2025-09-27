@@ -1,4 +1,4 @@
-# PrepWell IELTS - Modern Landing Page
+# PrepWell IELTS 
 
 A professional, responsive homepage for an IELTS preparation institute built with React.js and Bootstrap.
 
