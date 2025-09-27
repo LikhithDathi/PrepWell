@@ -24,6 +24,13 @@
 - **Interactive:** Smooth hover effects and animations 
 - **Professional:** IELTS-focused content and styling 
 
+## 🎨 Design Choices
+- Used React for component-based architecture to keep code modular and reusable.
+- Bootstrap ensures rapid styling with a mobile-first responsive layout.
+- Smooth scroll and animations improve UX and engagement.
+- Gradient accents and clean typography provide a modern, professional look fitting for an IELTS institute.
+
+
 ## 📦 Installation & Setup 
 
 1. **Clone the repository**
