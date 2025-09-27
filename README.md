@@ -29,5 +29,5 @@ A professional, responsive homepage for an IELTS preparation institute built wit
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/PrepWell-ielts.git
-cd PrepWell-ielts
+git clone https://github.com/yourusername/PrepWell.git
+cd PrepWell
