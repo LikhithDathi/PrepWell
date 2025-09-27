@@ -29,3 +29,16 @@
 ```bash
 git clone https://github.com/LikhithDathi/PrepWell.git
 cd PrepWell
+
+2. **Install dependencies**
+```bash
+npm install
+
+
+3. **Run the project locally**
+```bash
+npm start
+
+4. **Build for production**
+```bash
+npm run build
