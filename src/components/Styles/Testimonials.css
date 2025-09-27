@@ -1,0 +1,258 @@
+/* Testimonials Section Styles */
+.testimonials-section {
+  background: var(--prepwell-gradient-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-background {
+  z-index: 0;
+}
+
+.testimonials-background-circle {
+  background: radial-gradient(circle, #3b82f6 0%, transparent 70%);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+}
+
+.testimonials-container {
+  position: relative;
+  z-index: 1;
+}
+
+.testimonials-header {
+  position: relative;
+}
+
+.testimonials-badge {
+  background: var(--prepwell-gradient) !important;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.testimonials-title {
+  color: #1f2937;
+  background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.testimonials-subtitle {
+  font-size: 1.25rem;
+}
+
+/* Testimonials Grid */
+.testimonials-grid {
+  position: relative;
+}
+
+.testimonials-col {
+  transition: transform 0.3s ease;
+}
+
+.testimonials-col:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid #10b981 !important;
+}
+
+.testimonial-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--prepwell-gradient);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--prepwell-shadow-lg);
+}
+
+.testimonial-card-body {
+  position: relative;
+  z-index: 1;
+}
+
+/* Testimonial Quote */
+.testimonial-quote {
+  font-size: 4rem;
+  line-height: 1;
+  z-index: 0;
+}
+
+.testimonial-quote span {
+  font-family: serif;
+}
+
+/* Testimonial Rating */
+.testimonial-rating {
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.rating-stars {
+  color: #fbbf24;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+  color: #6b7280 !important;
+}
+
+/* Testimonial Student Info */
+.testimonial-student {
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-avatar {
+  flex: 1;
+}
+
+.testimonial-avatar-icon {
+  font-size: 2.5rem !important;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-name {
+  color: #1f2937;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.testimonial-score {
+  font-size: 0.9rem;
+  color: #10b981 !important;
+}
+
+.testimonial-course {
+  font-size: 0.85rem;
+}
+
+.testimonial-improvement {
+  background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%) !important;
+  border: none !important;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+/* Testimonial Duration */
+.testimonial-duration {
+  border-top: 1px solid #e5e7eb !important;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-duration small {
+  font-size: 0.85rem;
+}
+
+/* Overall Rating Section */
+.testimonials-rating {
+  position: relative;
+}
+
+.testimonials-overall {
+  background: white !important;
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-overall::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--prepwell-gradient);
+}
+
+.testimonials-overall-title {
+  color: #1f2937;
+  font-size: 1.5rem;
+}
+
+.testimonials-overall-score {
+  font-size: 4rem;
+  line-height: 1;
+  background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.testimonials-overall-stars {
+  font-size: 1.5rem;
+}
+
+.testimonials-overall-text {
+  font-size: 0.95rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 2rem 0;
+  }
+  
+  .testimonials-title {
+    font-size: 2.2rem !important;
+  }
+  
+  .testimonials-col {
+    margin-bottom: 1.5rem;
+  }
+  
+  .testimonial-student {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .testimonial-avatar {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .testimonials-overall-score {
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial-card-body {
+    padding: 1.5rem !important;
+  }
+  
+  .testimonial-quote {
+    font-size: 3rem;
+  }
+  
+  .testimonials-overall {
+    padding: 2rem 1rem !important;
+  }
+}
