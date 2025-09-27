@@ -26,7 +26,7 @@ const Navbar = () => {
     { id: 1, label: "Home", href: "#home" },
     { id: 2, label: "Features", href: "#features" },
     { id: 3, label: "Success", href: "#testimonials" },
-    { id: 4, label: "Pricing", href: "#pricing" }
+    { id: 4, label: "Pricing", href: "#pricing" },
   ];
 
   return (
@@ -64,8 +64,7 @@ const Navbar = () => {
                 className="nav-link-custom"
                 onClick={(e) => {
                   e.preventDefault();
-                  const target = link.href === '#pricing' ? '#testimonials' : link.href;
-                  handleNavClick(target);
+                  handleNavClick(link.href);
                 }}
               >
                 {link.label}
@@ -75,7 +74,7 @@ const Navbar = () => {
           
           <Button 
             className="navbar-cta btn-premium-custom"
-            onClick={() => handleNavClick('#testimonials')}
+            onClick={() => handleNavClick('#stats')}
           >
             🚀 Free Assessment
           </Button>

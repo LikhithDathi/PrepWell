@@ -67,6 +67,13 @@
   overflow: hidden;
 }
 
+.feature-card-body {
+  position: relative;
+  z-index: 1;
+  padding-top: 5rem;
+  padding-bottom: 50rem;
+}
+
 .feature-card::before {
   content: '';
   position: absolute;
@@ -80,11 +87,6 @@
 .feature-card:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: var(--prepwell-shadow-lg);
-}
-
-.feature-card-body {
-  position: relative;
-  z-index: 1;
 }
 
 .feature-gradient-accent {
@@ -103,6 +105,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 0.5rem;
   animation: bounce 2s infinite;
 }
 

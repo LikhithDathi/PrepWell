@@ -35,7 +35,7 @@ const Stats = () => {
   ];
 
   return (
-    <section className="stats-section py-5 bg-white position-relative overflow-hidden">
+    <section id="stats" section className="stats-section py-5 bg-white position-relative overflow-hidden">
       {/* Animated background */}
       <div className="stats-background position-absolute top-0 start-0 w-100 h-100">
         <div className="stats-background-gradient"></div>
